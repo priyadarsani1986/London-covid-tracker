@@ -1,0 +1,17 @@
+
+ table {
+     font-size: smaller;
+     margin-top: 1cm;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+     border-collapse: collapse;
+     border: 1px black;
+     text-align: center;
+
+ }
+  th, td {
+      text-align: center;
+      border: ridge;
+      
+  }

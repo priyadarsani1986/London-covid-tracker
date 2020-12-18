@@ -1,0 +1,24 @@
+
+<table class="table table-sm">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Area Name</th>
+        <th scope="col">Area Code</th>
+        <th scope="col">Date</th>
+        <th scope="col">Total cases</th>
+        <th scope="col">New cases</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of collection">
+        <td>{{item.id}}</td>
+        <td>{{item.area_name}}</td>
+        <td>{{item.area_code}}</td>
+        <td>{{item.date}}</td>
+        <td>{{item.new_cases}}</td>
+        <td>{{item.total_cases}}</td>        
+      </tr>
+    </tbody>
+  </table>
+

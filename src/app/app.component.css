@@ -1,0 +1,11 @@
+h3 {
+    margin-left: 5cm;
+    font-family: 'Permanent Marker', cursive;
+    color: lightslategray;
+    padding-left: 2cm;
+    padding-top: 2cm;
+}
+input {
+    background-color: lightyellow;
+    font-style:unset
+}
